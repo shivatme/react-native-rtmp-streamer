@@ -1,6 +1,6 @@
 {
   "name": "react-native-rtmp-streamer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React Native module for RTMP live streaming using native iOS (HaishinKit) and Android (RootEncoder)",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
