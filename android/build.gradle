@@ -61,7 +61,13 @@ android {
     targetCompatibility JavaVersion.VERSION_1_8
   }
 }
-
+allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}
 dependencies {
   implementation "com.facebook.react:react-android"
+  implementation 'com.github.pedroSG94.RootEncoder:rtplibrary:2.2.6'
+
 }

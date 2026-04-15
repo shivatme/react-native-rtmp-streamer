@@ -115,11 +115,11 @@
     ]
   },
   "codegenConfig": {
-    "name": "RtmpStreamerSpec",
-    "type": "modules",
+    "name": "VideoLiveStream",
+    "type": "components",
     "jsSrcsDir": "src",
     "android": {
-      "javaPackageName": "com.rtmpstreamer"
+      "javaPackageName": "com.rtmpstreamer.livestream"
     }
   },
   "prettier": {
